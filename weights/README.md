@@ -1,11 +1,11 @@
 # Model Weights
 
-Place the trained YOLOv5 checkpoint here as:
+The custom-trained YOLOv5 checkpoint should be stored here as:
 
 ```text
 weights/best.pt
 ```
 
-The original `best.pt` checkpoint was supplied with the project, but this GitHub integration cannot directly upload that binary file from the current workspace. The repository documentation and notebook are already prepared for it.
+The inference script and notebook both expect this path by default.
 
-After adding `best.pt`, the notebook can use it directly for inference.
+> `best.pt` is not currently stored in this GitHub repository because the available GitHub connection cannot upload the binary checkpoint from the local workspace. The original checkpoint is available in the project files supplied in the chat.
