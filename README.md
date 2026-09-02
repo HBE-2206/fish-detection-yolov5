@@ -145,4 +145,4 @@ The training log also records several JPEG files being repaired during dataset s
 
 ## 👤 Author
 
-**Hazem Mohamed**
+**Hazem Elshafey**
