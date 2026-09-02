@@ -12,22 +12,17 @@ env/
 # YOLOv5 outputs
 runs/
 *.cache
-results/*
 
-# Local datasets and videos
+# Local datasets and downloaded archives
 data/
 datasets/
 train_data/
 *.zip
+
+# Local video files
 *.mp4
 *.avi
 *.mov
-
-# Keep repository test images
-!test_images/
-!test_images/*.png
-!test_images/*.jpg
-!test_images/*.jpeg
 
 # OS / IDE
 .DS_Store
