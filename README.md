@@ -30,19 +30,28 @@ The supplied training log records a later validation result of approximately **0
 
 ```text
 fish-detection-yolov5/
+│
+├── README.md
 ├── fish_detection_yolov5.ipynb
 ├── detect_fish.py
-├── test_images/
-│   └── README.md
-├── results/
-│   └── README.md
-├── weights/
-│   ├── best.pt
-│   └── README.md
 ├── requirements.txt
-├── PROJECT_STRUCTURE.md
-├── .gitignore
-└── README.md
+├── weights/
+│   └── best.pt
+│
+├── test_images/
+│   ├── original/
+│   │   └── aquarium_test_01.jpg
+│   │
+│   └── results/
+│       └── aquarium_detection_01.jpg
+│
+└── results/
+    ├── training/
+    │   ├── results.png
+    │   └── confusion_matrix.png
+    │
+    └── samples/
+        └── detection_result.jpg
 ```
 
 > The original training dataset is not included in this repository.
@@ -77,6 +86,14 @@ python detect_fish.py \
   --output results/aquarium_detection.jpg \
   --confidence 0.25
 ```
+## Detection Result
+
+### Original Image
+<img width="1268" height="786" alt="Screenshot 2026-09-02 121848" src="https://github.com/user-attachments/assets/8815c200-db69-445e-b5b7-954ccf8bd599" />
+
+
+### Detection Result
+![Fish Detection Result](test_images/results/aquarium_detection_01.jpg)
 
 The annotated image is written to `results/` and the console reports the number of detections.
 
