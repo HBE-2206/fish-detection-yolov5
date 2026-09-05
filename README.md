@@ -93,7 +93,8 @@ python detect_fish.py \
 
 
 ### Detection Result
-![Fish Detection Result](test_images/results/aquarium_detection_01.jpg)
+<img width="1268" height="786" alt="fish_detection" src="https://github.com/user-attachments/assets/46ad81de-e393-4654-9cc0-117a9e44a717" />
+
 
 The annotated image is written to `results/` and the console reports the number of detections.
 
